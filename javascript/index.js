@@ -1,7 +1,7 @@
-/* learning fundamental of Javascript*/
+// learning fundamental of Javascript
 console.log("Hello World");
 
-/*var let and const*/
+// var let and const
 let age;
 age = 31;
 console.log(age);
@@ -43,7 +43,7 @@ console.log(Array.isArray(fruits));
 console.log(Array.isArray(fruits[1]));
 console.log(fruits.indexOf('oranges'));
 
-/*object*/
+// object
 const dog = {
     firstName: "Koma",
     lastName: "Huang",
@@ -95,7 +95,7 @@ console.log(todosJSON)
 const a = 11;
 const b = 4 ;
 
-/*conditions*/
+// conditions
 if (a === 10) {
     console.log("a is 10");
 } else if (a > 10) {
@@ -131,7 +131,7 @@ switch(color) {
         console.log("color is not red nor blue");
 }
 
-/* loops*/
+// loops
 for (let i = 0; i < 10; i ++) {
     console.log(`For Loop Number: ${i}`);
 }
@@ -152,7 +152,7 @@ for(let todo of todos) {
     console.log(todo.id);
 }
 
-/* Building a Pyramid Generator with Javascript*/
+// Building a Pyramid Generator with Javascript
 const character = "#";
 const count = 8;
 const rows = [];
@@ -178,7 +178,7 @@ for (const row of rows) {
 
 console.log(result);
 
-/* Review Javascript Fundamentals with building Gradebook App*/
+// Review Javascript Fundamentals with building Gradebook App
 function getAverage(scores) {
     let sum = 0;
   
